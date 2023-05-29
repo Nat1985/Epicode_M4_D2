@@ -5,7 +5,7 @@ const loadingDiv = document.getElementById("loading"); // div dell'icona animata
 const foundDiv = document.getElementById("found") // div genitore di mainDiv
 
 // Creo la funzione per inviare la chiamata all'endpoint
-// dalla stringa inserita dall'utente e passato con onclick()
+// dalla stringa inserita dall'utente e passata con onclick()
 function searchSong() {
     let userInput = (document.getElementById("searchField")).value;
     loadingDiv.classList.toggle("d-none");
