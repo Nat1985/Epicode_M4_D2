@@ -229,3 +229,8 @@ ul {
 .mainPage img {
   width: 200px;
 }
+
+#main-page {
+  display: flex;
+  flex-direction: row;
+}
